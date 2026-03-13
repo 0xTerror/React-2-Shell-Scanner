@@ -12,7 +12,8 @@ The scanner tests the root path (/) by default. Use --path or --path-file to tes
 
 # OPTIONS
 
-```-u, --url         Single URL to check
+```
+-u, --url         Single URL to check
 -l, --list        File containing hosts (one per line)
 -t, --threads     Number of concurrent threads (default: 10)
 --timeout         Request timeout in seconds (default: 10)
