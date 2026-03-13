@@ -12,7 +12,7 @@ The scanner tests the root path (/) by default. Use --path or --path-file to tes
 
 # OPTIONS
 
--u, --url         Single URL to check
+```-u, --url         Single URL to check
 -l, --list        File containing hosts (one per line)
 -t, --threads     Number of concurrent threads (default: 10)
 --timeout         Request timeout in seconds (default: 10)
@@ -28,4 +28,4 @@ The scanner tests the root path (/) by default. Use --path or --path-file to tes
 --waf-bypass      Add junk data to bypass WAF content inspection
 --waf-bypass-size Size of junk data in KB (default: 128)
 --path            Custom path to test (can be used multiple times)
---path-file       File containing paths to test (one per line)
+--path-file       File containing paths to test (one per line)```
