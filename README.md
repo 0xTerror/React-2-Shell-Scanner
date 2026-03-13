@@ -10,6 +10,12 @@ By default, the scanner sends a crafted multipart POST request containing an RCE
 
 The scanner tests the root path (/) by default. Use --path or --path-file to test custom paths. If not vulnerable, it follows same-host redirects (e.g., / to /en/) and tests the redirect destination. Cross-origin redirects are not followed.
 
+# Installation 
+
+```pip install -r requirements.txt```
+
+
+
 # OPTIONS
 
 ```
